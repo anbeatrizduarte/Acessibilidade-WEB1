@@ -101,6 +101,7 @@ body.dark .label {
     position: fixed;
     padding-left: 97%;
     display: grid;
+    padding-top: 50px;
 }
 
 .texto-principal {
