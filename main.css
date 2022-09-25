@@ -99,7 +99,8 @@ body.dark .label {
   
 .btn-container {
     position: fixed;
-    padding-left: 40px;
+    padding-left: 97%;
+    display: grid;
 }
 
 .texto-principal {
