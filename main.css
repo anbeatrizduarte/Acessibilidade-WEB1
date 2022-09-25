@@ -98,7 +98,7 @@ body.dark .label {
   
   
 .btn-container {
-    position: relative;
+    position: fixed;
     padding-left: 40px;
 }
 
