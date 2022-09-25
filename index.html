@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+    <title>Trabalho de WEB1</title>
+
+    </head>
+
+    <body>
+        <header class="principal">
+            <main>
+            <div class="texto-principal" id="inicio">
+                <h1>Trabalho sobre Acessibilidade</h1>
+            </div>
+
+        <div class="botao">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          
+          <div class="ball"></div>
+        </label>
+      </div>
+
+    </main>
+
+    <nav>
+        <ul>
+            <h1><span style="background-color: #50bcaf;">Tópicos apresentados neste site</span></h1>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#imagens">Imagens</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#cores">Cores</a></li>
+            <li><a href="#tabelas">Tabelas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<br>
+
+<section class="textos">
+
+    <h1 id="textos"><span style="background-color: #50bcaf;">Textos</span></h1>
+
+    <p>
+        Utilize tags adequadas para títulos, subtítulos, parágrafos e listas no seu conteúdo textual.<br>
+        O leitor de telas vai identificar cada elemento para o usuário, permitindo ainda navegar de título em título<br>
+        (o que é bastante útil para portais de notícias, por exemplo).
+    </p>
+
+</section>
+
+<br>
+
+<section class="imagens">
+
+    <h1 id="imagens"><span style="background-color: #50bcaf;">Imagens</span></h1>
+
+    <p>
+        No HTML, as imagens devem possuir o atributo alt com um texto alternativo que descreva seu conteúdo.<br>
+        Vale sinalizar que todos os elementos visuais ou multimídia, como ícones, vídeos e áudios, precisam de um <br>
+        elemento textual que os descrevam.
+    </p>
+
+    <br>
+
+    <figure>
+
+    <img src="data:image/png;base64,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" 
+    width="350px" height="300px" alt="Logo do HTML 5">
+
+    
+
+    <figcaption id="one">Figura 1. Logo do HTML 5</figcaption>
+
+    <br>
+    <br>
+
+    <img src="https://miro.medium.com/max/280/1*xfJlmNB_-rAJAJzBNKanlQ.jpeg" 
+    width="350px" height="300px" alt="Foto do jogo de fliperama PACMAN">
+
+    <figcaption id="two">Figura 2. Foto do jogo de fliperama PACMAN</figcaption>
+
+    </figure>
+
+</section>
+
+<br>
+
+<section class="links">
+
+    <h1 id="links"><span style="background-color: #50bcaf;">Links</span></h1>
+
+    <p>
+        Links sublinhados são úteis para usuários com dificuldade para discernir contraste. <br>
+        Textos de links devem ser descritivos (e não apenas “clique aqui”). Como por exemplo:
+    </p>
+
+    <p><span style="font-weight: bold"><br>MODO ERRADO</span></p>
+    <p>Para saber acessar o YouTube <a href="https://www.youtube.com/">clique aqui.</a>
+
+    <p><span style="font-weight: bold"><br>MODO CERTO</span></p>
+    <a href="https://www.youtube.com/">YouTube</a>
+</section>
+
+<br>
+
+<section class="cores">
+
+    <h1 id="cores"><span style="background-color: #50bcaf;">Cores</span></h1>
+
+    <p>
+        Pense no constrate em diversos fundos e não apenas no branco. <br>
+        Garanta o contraste entre fundo e texto em diversos modos de exibição. <br>
+        Usar cores intuitivas. 
+    </p>
+
+</section>
+
+<br>
+
+<section class="tabelas">
+
+    <h1 id="tabelas"><span style="background-color: #50bcaf;">Tabelas</span></h1>
+
+    <p>
+        Tabelas devem ser escritas em HTML com células de cabeçalho associadas <br> 
+        corretamente às suas colunas ou linhas, para uma leitura mais clara do leitor de telas.
+    </p>
+
+</section>
+
+<br>
+
+
+<footer class="final">
+    <p>Feito por Beatriz Duarte</p>
+    <a href="#inicio"><span style="color: black; font-size: 20px;"></span>Voltar para o ínicio da página</a>
+</footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+    
